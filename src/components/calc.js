@@ -2,15 +2,22 @@ import React, {useState} from "react";
 import Button from "./Button";
 
 function Calculator() {
+    // const [name, setName] = useState();
+
+    // const handleChangeName = (name) => {
+    //     setName(name);
+    // }
 
     return (
         <div className="wrapperCalculator">
             <div>
-                <input onChange={handleInput}/>
-                {/*{namberUn}  // передать значение с компонента button*/}
+                {/*{name}*/}
             </div>
             <div>
+                {/*<Button handleChangeName={handleChangeName}/>*/}
                 <Button number={1}/>
+                <Button number={2}/>
+                <Button number={3}/>
                 {/*<button onClick={() => handleNumsAdd("1")}>1</button>*/}
                 {/*<button onClick={() => handleNumsAdd("2")}>2</button>*/}
                 {/*<button onClick={() => handleNumsAdd("3")}>3</button>*/}
